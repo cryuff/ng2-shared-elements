@@ -1,0 +1,48 @@
+{
+  "name": "ng2-shared-elements",
+  "description": "Few useful components and pipes for angular2 apps",
+  "scripts": {
+    "build": "npm install && rimraf ./dist && tsc && copyfiles -f ./node_modules/bootstrap-datepicker/js/locales/bootstrap-datepicker.pl.js ./src/shared/js && copyfiles ./src/shared/** ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "-"
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "copy box",
+    "autocomplete",
+    "truncate",
+    "confirm box"
+  ],
+  "author": "Kacper Migała",
+  "license": "-",
+  "main": "index.js",
+  "devDependencies": {
+    "@angular/animations": "^4.1.1",
+    "@angular/common": "^4.1.1",
+    "@angular/compiler": "^4.1.1",
+    "@angular/compiler-cli": "^4.1.1",
+    "@angular/core": "^4.1.1",
+    "@angular/http": "^4.1.1",
+    "@angular/platform-browser": "^4.1.1",
+    "@angular/platform-browser-dynamic": "^4.1.1",
+    "@angular/platform-server": "^4.1.1",
+    "@angular/router": "^4.1.1",
+    "@types/jquery": "^2.0.41",
+    "copyfiles": "^1.2.0",
+    "core-js": "^2.4.1",
+    "jquery": "^3.2.1",
+    "ng2-datetime": "^1.3.2",
+    "reflect-metadata": "^0.1.10",
+    "rimraf": "^2.6.1",
+    "rxjs": "^5.3.1",
+    "typescript": "^2.1.5",
+    "zone.js": "^0.8.10"
+  },
+  "dependencies": {
+    "@angular/core": "^4.0.1",
+    "@angular/forms": "^4.0.1"
+  }
+}

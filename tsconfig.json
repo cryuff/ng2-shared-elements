@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es2015", "dom"],
+    "declaration": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "outDir": "./dist"
+  },
+  "files": [
+    "index.ts",
+    "./src/components/autocomplete.component.ts",
+    "./src/components/confirm.component.ts",
+    "./src/components/copy-box.component.ts",
+    "./src/pipes/truncate.pipe.ts",
+    "./src/models/apiresult.ts",
+    "./src/services/base.data.service.ts",
+    "./src/services/base.login.service.ts",
+    "./src/components/base.encrypt-password.component.ts",
+    "./src/components/base.header.component.ts",
+    "./src/components/base.login.component.ts",
+    "./src/components/pagination.component.ts",
+    "./src/components/loading.component.ts",
+    "./src/pipes/custom-date.pipe.ts",
+    "./src/components/base.search.component.ts",
+    "./src/models/base.search-object.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "angularCompilerOptions": {
+    "strictMetadataEmit": true,
+    "skipTemplateCodegen": true
+  }
+}
